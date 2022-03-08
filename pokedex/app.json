@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "pokedex",
-    "slug": "pokedex",
+    "name": "Pokedex",
+    "slug": "Pokedex",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/pokeball.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./src/assets/pokeball.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f00"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,13 +20,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "Olman.Pokedex",
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/pokeball.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./src/assets/pokeball.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
